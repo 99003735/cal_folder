@@ -1,10 +1,12 @@
+
 #include "mystring.h"
-int mystrlen(char *s1)
+
+int mystrlen(chat *str);
 {
     int len=0;
-    int i=0;
-    while(s1[i]!='\0')
+    int j=0;
+    while(str[j]!='\0')
     len++;
     return len;
-
 }
+
