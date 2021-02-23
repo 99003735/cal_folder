@@ -1,19 +1,20 @@
+
 #include "mystring.h"
 
-int mystrcmp(char str1[],char str2[])
+int str_Compare(char str1[], char str2[])
 {
-    int t=0,i=0;
-    while(str1[i]!='\0' && str2[i]!='\0')
+    int flag=0, k=0;
+    while(str1[k]!='\0' && str2[k] !='\0')
     {
-        if(str1[i] !=str2[i])
+        if(str1[k] != str2[k])
         {
-            t=1;
+            flag=1;
             break;
         }
-        i++;
+        k++;
     }
-    if(t==0)
-        return 0;
-    else 
-        return 1;
+    if(flag==0)
+    return 0;
+    else
+    return 1;
 }
