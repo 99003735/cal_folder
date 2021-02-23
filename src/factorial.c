@@ -1,12 +1,12 @@
+
 #include "myutils.h"
 
-
-int fact (int n)
+int factorial(int num)
 {
-    int i,p=1;
-    for(i=1;i<=n;i++)
+    int i,f=1;
+    for(i=1;i<=num;i++)
     {
-        p=p*i;
+        f=f*i;
     }
-    return 0;
+    return f;
 }
