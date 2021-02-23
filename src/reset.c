@@ -1,6 +1,6 @@
-#include"bitmask.h"
+#include "bitmask.h"
 
-int reset(int num ,int bit)
+int reset(int input, int bit)
 {
-    return(num & (~(1 << bit)));
+    return(input & (~(1 << bit)));
 }
