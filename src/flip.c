@@ -1,9 +1,9 @@
 #include "bitmask.h"
-
-int flip_number(int input,int output)
-{
-    scanf("%d",&input);
-    output= ~input;
-    return output;
-
-}
+ 
+ int flipNum(int input, int output)
+ {
+     printf("Enter the input : ");
+     scanf("%d",&input);
+     output = ~input;
+     return output;
+ }
