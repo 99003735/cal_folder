@@ -1,10 +1,11 @@
 #include "myutils.h"
-int prime(int a)
+
+int is_prime(int num)
 {
-    int p;
-    for(p=2;p<=a-1;p++)
+    int i;
+    for(i=2; i<= num-1;i++)
     {
-        if(a%p ==0)
+        if(num%i ==0)
         return 0;
     }
     return 1;
